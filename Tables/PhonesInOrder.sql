@@ -1,0 +1,5 @@
+CREATE TABLE PhonesInOrder
+(
+	PhoneID INT NOT NULL REFERENCES Phones(ID) ,
+	OrderID INT NOT NULL REFERENCES OrderHistory(ID)
+)

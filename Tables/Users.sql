@@ -1,0 +1,6 @@
+CREATE TABLE Users
+(
+    ID INT  NOT NULL  PRIMARY KEY identity(1, 1),
+    Name NVARCHAR(50) NOT NULL,
+	Email NVARCHAR (100) NOT NULL
+)

@@ -1,0 +1,7 @@
+CREATE TABLE OrderHistory
+(
+    ID INT  NOT NULL PRIMARY KEY identity(1, 1),
+	StatusID INT NOT NULL, 
+	UserID INT NOT NULL, 
+    Date DATETIME NOT NULL
+)

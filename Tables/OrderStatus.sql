@@ -1,0 +1,5 @@
+CREATE TABLE OrderStatus
+(
+	ID INT NOT NULL PRIMARY KEY identity(1, 1),
+	Name NVARCHAR(100) NOT NULL
+)
